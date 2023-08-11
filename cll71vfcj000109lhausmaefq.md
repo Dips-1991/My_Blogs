@@ -234,7 +234,7 @@ Here we will create `nginx web server` container in it and try to access it from
 
 NGINX listens on port 80 by default. Because the container’s using a host network, you can access your NGINX server on your host’s [`localhost:80`](http://localhost:80) or in`EC2 instance IP Address` even though no ports have been explicitly exposed
 
-***Note:*** If you are using make sure `port 80` should be open in the inbound rule of the EC2 instance security group
+***Note:*** If you are using EC2 instance make sure `port 80` should be open in the inbound rule of the EC2 instance security group
 
 Copy the IP address of the EC2 instance and paste it into the browser you are able to see the nginx page
 
