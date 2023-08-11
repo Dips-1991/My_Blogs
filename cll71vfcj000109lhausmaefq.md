@@ -226,7 +226,7 @@ After inspecting the my-network you can see the newly created container `con2` a
 
 ### 💻 ***Host Networking***
 
-Bridge networks are what you’ll most commonly use to connect your containers. Let’s also explore the capabilities of host networks, where containers attach directly to your host’s interfaces. You can enable host networking for a container by connecting it to the built-in `host` network
+Bridge networks are what you’ll most commonly use to connect your containers. Let’s also explore the capabilities of host networks, where containers attach directly to your host’s interfaces instead of `docker0` network. You can enable host networking for a container by connecting it to the built-in `host` network
 
 Here we will create `nginx web server` container in it and try to access it from the localhost
 
