@@ -34,7 +34,7 @@ Here we will check the available network layer in the system using the below com
 ```bash
 ip address show
 ip link show
-ip link 
+ip link
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691768058094/eba2dd0a-ac63-40ef-a103-425fcdf3c22c.png align="center")
@@ -47,7 +47,7 @@ Now after installing the docker, you can see that one more network layer is adde
 
 ### ✍️ ***Types of Docker Networking***
 
-Here are seven different types of Docker networks explained with bullet points and emojis:
+Here are seven different types of Docker networks explained.
 
 1. **Bridge Network:**
     
