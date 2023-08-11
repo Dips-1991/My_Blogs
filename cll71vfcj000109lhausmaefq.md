@@ -268,7 +268,7 @@ Now the container is no belongs to my-network network
 
 ---
 
-> **Thank you for taking the time to read this blog. I hope you found the information helpful and insightful. So please keep yourself updated with my latest insights and articles on DevOps 🚀 by following me on**
+> **Thank you🙏🙏... for taking the time to read this blog. I hope you found the information helpful and insightful. So please keep yourself updated with my latest insights and articles on DevOps 🚀 by following me on**
 > 
 > So, Stay in the loop and stay ahead in the world of DevOps!
 > 
