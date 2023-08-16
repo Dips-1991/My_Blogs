@@ -8,7 +8,7 @@ tags: docker, dockerfile, docker-images, docker-build, multistage-docker-build
 
 ---
 
-### ✨ *I****ntroduction***
+### ✨*I****ntroduction***
 
 Docker, the superhero of containerization, offers multiple ways to build images. We're pitting the regular Dockerfile build against the multistage Dockerfile build. Who'll emerge victorious? Let's dive into the ring and find out!
 
@@ -20,28 +20,27 @@ Multi-stage builds combined with slim base images is the single most effective t
 
 ### 💡 ***The basic idea behind Docker’s multistage builds***
 
-👉 Usually you’d start out with a fat base image like Ubuntu or an image specific to your programming language. This comes packed with essential build tools like Compilers.  
-  
-👉 Next, you’d run commands to download necessary dependencies like libraries, testing frameworks, linters, security scanners and so on. All of these are needed for your code to pass necessary quality checks, compile and produce the final artifact(s).  
-  
-👉 At this point, your application is built and ready to run, so you deploy this image in production.  
-  
+👉 Usually you’d start out with a fat base image like Ubuntu or an image specific to your programming language. This comes packed with essential build tools like Compilers.
+
+👉 Next, you’d run commands to download necessary dependencies like libraries, testing frameworks, linters, security scanners and so on. All of these are needed for your code to pass necessary quality checks, compile and produce the final artifact(s).
+
+👉 At this point, your application is built and ready to run, so you deploy this image in production.
+
 But we no longer need all those dependencies used during the BUILD phase. If your app is written in C++, you probably only need the compiled binary for production.  
-And yet, our prod container carries that 900MB worth of burden with it 👎  
-  
-So we obviously shed all that load!  
-  
+And yet, our prod container carries that 900MB worth of burden with it 👎
+
+So we obviously shed all that load!
+
 But traditionally, this has been very tedious to achieve in Docker, involving hacks, custom bash scripts and lots of spaghetti code to maintain 💢
 
 ### 🚶 ***Enter Into The Multi-stage Builds***
 
-  
-These allow you to split your Docker image definition into multiple STAGES. Every time you use a `“FROM <base image>”` statement in your Dockerfile, it's a new stage.  
-  
-You can cherry-pick the files to include from each stage into your final image. So it’s not a surprise that you’d only pick the final executable file to put into your final image.  
-  
-You can choose a lightweight base image such as `Alpine or Distroless` and just add your executable to it.  
-  
+These allow you to split your Docker image definition into multiple STAGES. Every time you use a `“FROM <base image>”` statement in your Dockerfile, it's a new stage.
+
+You can cherry-pick the files to include from each stage into your final image. So it’s not a surprise that you’d only pick the final executable file to put into your final image.
+
+You can choose a lightweight base image such as `Alpine or Distroless` and just add your executable to it.
+
 This is the most powerful way to end up with a super light image that is easy to run and maintain in production 🚀
 
 ### 👍 ***Advantages of Multistage Docker Builds***
@@ -87,7 +86,7 @@ EXPOSE 5000
 ENTRYPOINT [ "python" ]
 
 # Run the application app.py 
-CMD [ "app.py" ] 
+CMD [ "app.py" ]
 ```
 
 1. ### ***✔ Build the Dockerfile***
@@ -173,7 +172,6 @@ CMD [ "app.py" ]
         
     * Set the default command to `"`[`app.py`](http://app.py)`"`, which is the script that will be executed when the container starts.
         
-    
 
 Now, we will build this Multistage Dockerfile, and let's see the final image size after building the image
 
