@@ -91,7 +91,7 @@ A Pipeline is a user-defined model of a CD pipeline. A Pipeline’s code defines
 
 The definition of a Jenkins Pipeline is written into a text file (called a [`Jenkinsfile`](https://www.jenkins.io/doc/book/pipeline/jenkinsfile)) which in turn can be committed to a project’s source control repository.
 
-### ***Pipeline syntax And It's Explanation***
+### 🔄 ***Pipeline syntax And It's Explanation***
 
 👉 Here, is the sample code of the `Declarative Pipeline` in Jenkins
 
