@@ -8,11 +8,11 @@ tags: jenkins-devops, jenkins-installation, jenkins-pipeline, jenkins-declarativ
 
 ---
 
-### 🎆 ***Introduction***
+### 🎆***Introduction***
 
 One of the most important parts of your DevOps and CICD journey is a Declarative Pipeline Syntax of Jenkins using which we can create our pipeline as a code that brings automation to your development, building, testing, monitoring deploying/delivering of the application process.
 
-### 💡 ***Understanding Pipelines***
+### 💡***Understanding Pipelines***
 
 The pipeline is the process in Jenkins where we can provide the steps/job that are interlined and executed in the specific order to perform the entire CI/CD task and make the entire process automated
 
@@ -20,7 +20,7 @@ The pipeline is the process in Jenkins where we can provide the steps/job that a
 
 👉 There are two types of pipelines used in Jenkins to create the Jenkins pipeline as a code
 
-### 📝 ***Scripted Pipeline***
+### 📝***Scripted Pipeline***
 
 * Scripted Pipeline is the original pipeline syntax for Jenkins, and it is based on the `Groovy scripting language`.
     
@@ -48,7 +48,7 @@ The pipeline is the process in Jenkins where we can provide the steps/job that a
     ```
     
 
-### 📜 ***Declarative Pipeline***
+### 📜***Declarative Pipeline***
 
 * Declarative Pipeline is a more recent addition to Jenkins and provides a more structured and simpler syntax for defining pipelines.
     
@@ -91,7 +91,7 @@ A Pipeline is a user-defined model of a CD pipeline. A Pipeline’s code defines
 
 The definition of a Jenkins Pipeline is written into a text file (called a [`Jenkinsfile`](https://www.jenkins.io/doc/book/pipeline/jenkinsfile)) which in turn can be committed to a project’s source control repository.
 
-### 🔄 ***Pipeline syntax And It's Explanation***
+### 🔄***Pipeline syntax And It's Explanation***
 
 👉 Here, is the sample code of the `Declarative Pipeline` in Jenkins
 
@@ -160,7 +160,7 @@ The definition of a Jenkins Pipeline is written into a text file (called a [`Jen
     * `always`: Defines actions to be taken regardless of whether the pipeline run succeeds or fails.
         
 
-### **📖 *Task: Create a New Job using Declarative Pipeline- Hello World Example***
+### **📖*Task: Create a New Job using Declarative Pipeline- Hello World Example***
 
 Here, in this example, we will create and execute the simple pipeline as code step by step
 
@@ -227,7 +227,7 @@ As we know how to install Jenkins in the Ubuntu OS. To know more about installin
 
 Congratulation <sup>😎😎</sup> 💐💐 you have successfully created and executed your first Declarative Jenkins Pipeline 🎉🎉.
 
-### ***🎆*** ***Conclusion***
+### ***🎆Conclusion***
 
 In this example, we have learned How Jenkins Declarative Pipelines lay the foundation for seamless CI/CD workflows.
 
