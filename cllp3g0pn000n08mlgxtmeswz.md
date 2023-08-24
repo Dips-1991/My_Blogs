@@ -263,7 +263,7 @@ Here is the Jenkins file we will store on GitHub in the application code itself.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692810974108/4443b2d6-d8ac-4dd4-b850-799709999f9f.png align="left")
 
-### 📦***Accessing the Jenkins File***
+### 📦***Executing the Jenkins File from GitHub***
 
 To Call `Jenkins file` From Jenkins, we have to make some modifications in the configure section shown below.
 
