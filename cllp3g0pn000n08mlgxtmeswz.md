@@ -26,7 +26,7 @@ Make sure the following tools are installed and running in your system. Here we 
 
 🧛‍♂️`Jenkins:` To create the Jenkins Declarative Pipeline. Check out the link to install Jenkins. [https://deepakcloud22.hashnode.dev/day-22-getting-started-with-jenkins](https://deepakcloud22.hashnode.dev/day-22-getting-started-with-jenkins)
 
-🐳`Docker:` Run the docker container to host our application. Check out the link to install Jenkins [https://deepakcloud22.hashnode.dev/day-16-task-docker-for-devops-engineers-part-1](https://deepakcloud22.hashnode.dev/day-16-task-docker-for-devops-engineers-part-1)
+🐳`Docker:` Run the docker container to host our application. Check out the link to install docker [https://deepakcloud22.hashnode.dev/day-16-task-docker-for-devops-engineers-part-1](https://deepakcloud22.hashnode.dev/day-16-task-docker-for-devops-engineers-part-1)
 
 🏢`Docker Hub` : To push the Docker image into the Docker Hub repository. Check out to create the Docker-Hub account [https://docs.docker.com/docker-id/](https://docs.docker.com/docker-id/)
 
