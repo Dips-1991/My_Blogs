@@ -30,7 +30,7 @@ Make sure the following tools are installed and running in your system. Here we 
 
 🏢`Docker Hub` : To push the Docker image into the Docker Hub repository. Check out to create the Docker-Hub account [https://docs.docker.com/docker-id/](https://docs.docker.com/docker-id/)
 
-🏢`Git/GitHub Repo:` To get the application code from the GitHub[https://www.linkedin.com/pulse/day-8-task-basic-git-github-devops-engineers-deepak-patil/](https://www.linkedin.com/pulse/day-8-task-basic-git-github-devops-engineers-deepak-patil/)
+🏢`Git/GitHub Repo:` To get the application code from the GitHub [https://www.linkedin.com/pulse/day-8-task-basic-git-github-devops-engineers-deepak-patil/](https://www.linkedin.com/pulse/day-8-task-basic-git-github-devops-engineers-deepak-patil/)
 
 📝`Application Code:` We will use the below application code you can clone the code or fork this repository [https://github.com/Dips-1991/django-notes-app.git](https://github.com/Dips-1991/django-notes-app.git)
 
