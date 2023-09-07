@@ -4,6 +4,7 @@ datePublished: Thu Sep 07 2023 15:53:19 GMT+0000 (Coordinated Universal Time)
 cuid: clm9cl8q2000p08l27vnhcj33
 slug: kubernetes-k8s-architecture-a-deep-dive
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694101828148/6424947f-eccb-4b22-8bf6-4b71361faff9.webp
+tags: kubernetes, kubernetes-container, kubernetes-architecture, kubernetescluster, masterworkernode
 
 ---
 
@@ -81,7 +82,7 @@ Kubernetes Cluster mainly consists of Worker Machines called Nodes and a Control
 
 * ### 🌌 Kubernetes – Cluster Architecture
     
-    As can be seen in the diagram above, Kubernetes has a client-server architecture and has master and worker nodes, with the master being installed on a single Linux system and the nodes on many Linux workstations. 
+    As can be seen in the diagram above, Kubernetes has a client-server architecture and has master and worker nodes, with the master being installed on a single Linux system and the nodes on many Linux workstations.
     
 * ### 🛠 **Kubernetes Components**
     
@@ -117,7 +118,7 @@ Kubernetes Cluster mainly consists of Worker Machines called Nodes and a Control
         When the API Server receives a request for Scheduling Pods then the request is passed on to the Scheduler. It intelligently decides on which node to schedule the pod for better efficiency of the cluster.
         
     
-* ### **👷‍♂️👷‍♀️ Worker Nodes Components**
+* ### **👷‍♂️👷‍♀️ Data Plane (Worker Node) Components**
     
     These are the nodes where the actual work happens. Each Node can have multiple pods and pods have containers running inside them. There are 3 processes in every Node that are used to Schedule and manage those pods.
     
@@ -147,11 +148,11 @@ Kubernetes Cluster mainly consists of Worker Machines called Nodes and a Control
 
 * ### 👩‍💻 **kubectl**
     
-    1. ***Purpose****:* Command-line tool for managing Kubernetes clusters.
+    1. ***Purpose***\*:\* Command-line tool for managing Kubernetes clusters.
         
-    2. ***User Interaction****:* Used by administrators and developers to interact with the cluster.
+    2. ***User Interaction***\*:\* Used by administrators and developers to interact with the cluster.
         
-    3. ***Functionality****:*
+    3. ***Functionality***\*:\*
         
         * Creates and manages Kubernetes resources.
             
@@ -159,9 +160,9 @@ Kubernetes Cluster mainly consists of Worker Machines called Nodes and a Control
             
         * Executes commands in containers.
             
-    4. ***Role****:* Acts as the "commander" or "administrator" of the cluster.
+    4. ***Role***\*:\* Acts as the "commander" or "administrator" of the cluster.
         
-    5. ***Typical Commands****:*
+    5. ***Typical Commands***\*:\*
         
         * `kubectl get pods`: List pods.
             
@@ -169,17 +170,17 @@ Kubernetes Cluster mainly consists of Worker Machines called Nodes and a Control
             
         * `kubectl exec`: Execute commands in containers.
             
-    6. ***Configuration****:* Requires a configuration file with cluster details.
+    6. ***Configuration***\*:\* Requires a configuration file with cluster details.
         
     
 
 ### 🤖 **kubelets**
 
-1. ***Purpose****:* Node-level agent responsible for managing containers on a Kubernetes node.
+1. ***Purpose***\*:\* Node-level agent responsible for managing containers on a Kubernetes node.
     
-2. ***User Interaction****:* Typically operates automatically without direct user interaction.
+2. ***User Interaction***\*:\* Typically operates automatically without direct user interaction.
     
-3. ***Functionality****:*
+3. ***Functionality***\*:\*
     
     * Starts, stops, and monitors containers.
         
@@ -187,11 +188,11 @@ Kubernetes Cluster mainly consists of Worker Machines called Nodes and a Control
         
     * Reports container and pod status.
         
-4. ***Role****:* Acts as the "worker" on each node.
+4. ***Role***\*:\* Acts as the "worker" on each node.
     
-5. ***Integration****:* Works with container runtimes (e.g., Docker) to manage containers.
+5. ***Integration***\*:\* Works with container runtimes (e.g., Docker) to manage containers.
     
-6. ***Typical Actions****:*
+6. ***Typical Actions***\*:\*
     
     * Ensures containers in pods are running.
         
@@ -199,7 +200,7 @@ Kubernetes Cluster mainly consists of Worker Machines called Nodes and a Control
         
     * Manages resources for containers.
         
-7. ***Configuration****:* Part of the node's configuration, controlled by cluster administrators.
+7. ***Configuration***\*:\* Part of the node's configuration, controlled by cluster administrators.
     
 
 ---
