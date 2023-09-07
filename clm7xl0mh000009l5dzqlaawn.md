@@ -4,7 +4,7 @@ datePublished: Wed Sep 06 2023 16:05:28 GMT+0000 (Coordinated Universal Time)
 cuid: clm7xl0mh000009l5dzqlaawn
 slug: guide-to-understanding-jenkinsmaster-slave-architecture
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694016235596/255253d1-e99f-4e2e-9956-f79a6cf145c4.png
-tags: jenkins, jenkins-devops, jenkins-master-slave, jenkins-pipeline
+tags: jenkins, jenkins-devops, jenkins-master-slave, jenkins-pipeline, devops-trainwithshubham-jenkins-cicd-automation-devopsengineer-90daysofchallenge-cloudcomputing-linux-aws-azure-testing-blogging
 
 ---
 
@@ -181,7 +181,7 @@ When you trigger a Jenkins job from the master, the actual execution happens on 
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694007270395/9bcac3ac-268e-41fc-a9a4-ebf0c1490479.png align="center")
     
-4. At the Dashboard you can see the slave node is also added
+4. On the Dashboard you can see the slave node is also added
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694007573684/c424c7a5-2a12-4a15-9a81-8e444c06110f.png align="center")
     
