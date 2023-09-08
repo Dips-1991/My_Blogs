@@ -39,7 +39,7 @@ Minikube is designed to make it easy for developers to set up a Kubernetes envir
 
 This is an excellent way to test in a Kubernetes environment locally, without using up too much resources.
 
-### *Features of Minikube*
+### *🔣Features of Minikube*
 
 * Supports the latest Kubernetes release (+6 previous minor versions)
     
@@ -292,7 +292,7 @@ A Pod (as in a pod of whales or pea pod) is a group of one or more containers, w
     kubctl get pods 
     
     #Run this command for more information about pod
-    kubctl get pods -o wide 
+    kubctl get pods -o wide
     ```
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694179132990/8c2cec7a-f7ce-428a-85ac-a93b752574eb.png align="center")
