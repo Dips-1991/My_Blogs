@@ -318,7 +318,7 @@ A Pod (as in a pod of whales or pea pod) is a group of one or more containers, w
 
 ### ***🎉Conclusion***
 
-That’s all from this tutorial, I hope you have learned how to install Minikube and how to create the pod and deploy the pod, accessing the your container application.
+That’s all from this tutorial, I hope you have learned how to install Minikube and how to create the pod and deploy the pod, accessing your containerized application.
 
 Stay tuned for more about Kubernetes...
 
