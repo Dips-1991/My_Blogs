@@ -77,7 +77,7 @@ You describe a desired state in a Deployment, and the Deployment Controller chan
 
 Here we will create one Deployment file to deploy a sample `todo-app` on K8s using the `"Auto-healing" and "Auto-Scaling"` features.
 
-We have learned how to install and configure the minikube in our system in the previous blog.
+We have learned how to install and configure the Minikube in our system in the previous blog.
 
 **To install and configure Minikube please check out:** [https://deepakcloud22.hashnode.dev/minikube-installation-launching-your-first-kubernetes-cluster-with-nginx-running](https://deepakcloud22.hashnode.dev/minikube-installation-launching-your-first-kubernetes-cluster-with-nginx-running)
 
@@ -200,6 +200,36 @@ You can set the desired state of the replicas and scale a Deployment by using th
 ```apache
 kubectl scale deployment/<deployment-name> --replicas=<number-of-replicas>
 ```
+
+You can also scale the replicas in deployment.yaml file instead of scaling using the command.
+
+After updating the deployment.yaml file you need to reapply the deployment.yaml file.
+
+```apache
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
+```
+
+Here we will scale our replicas using the command.
 
 After executing the above command you can see the out is `deployment.apps/nginx-deployment scaled` it means we have successfully scaled the replicas to `5` earlier it was `3`.
 
