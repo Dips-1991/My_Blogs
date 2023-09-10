@@ -4,7 +4,7 @@ datePublished: Fri Sep 08 2023 17:43:21 GMT+0000 (Coordinated Universal Time)
 cuid: clmavylir000p0ajwgk0h10jz
 slug: kubernetes-deployment-unveiling-the-power-of-orchestration
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694194856605/653e4126-3ae4-4940-bd48-dd642a93e005.jpeg
-tags: pod-autoscaling, deploymentmanagement-replicaset-rollingupdates-rollback-kubernetes-scaling-deploymenterrors-applicationconfiguration-resourcemanagement-imagepullerror-insufficientpermission-limitranges-quota, kubernetes-containerorchestration-devops-cloudnative-microservices-docker-k8s-containerization-cloudcomputing-kubernetestutorial-kubernetesdeployment-containermanagement-devopstools-kubernetescluster, kubernetesdeployment, autuhealing
+tags: trainwithshubham, deploymentmanagement-replicaset-rollingupdates-rollback-kubernetes-scaling-deploymenterrors-applicationconfiguration-resourcemanagement-imagepullerror-insufficientpermission-limitranges-quota, kubernetes-containerorchestration-devops-cloudnative-microservices-docker-k8s-containerization-cloudcomputing-kubernetestutorial-kubernetesdeployment-containermanagement-devopstools-kubernetescluster, kubernetesdeployment, autuhealing
 
 ---
 
