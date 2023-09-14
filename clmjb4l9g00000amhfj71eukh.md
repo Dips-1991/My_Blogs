@@ -192,7 +192,7 @@ show databases;
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694703704183/8202fbe0-2d52-4154-bbbe-a6709532ea39.png align="center")
 
-## **Summary and Emojis 📝**
+### **📝Summary**
 
 * **ConfigMaps** (🧰) store configuration data and are excellent for decoupling configuration from application code.
     
