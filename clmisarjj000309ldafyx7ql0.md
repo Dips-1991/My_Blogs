@@ -1,8 +1,8 @@
 ---
-title: "Services in Kubernetes:"
+title: "Services in Kubernetes: A Deep Dive"
 datePublished: Thu Sep 14 2023 06:23:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmisarjj000309ldafyx7ql0
-slug: services-in-kubernetes
+slug: services-in-kubernetes-a-deep-dive
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694672472479/7de75207-df6a-4e25-8de7-3d21cfabbf4b.webp
 tags: 90daysofdevops-chanllenge, tws, kubernetesnetworking, kubernetesservice, trainwithshubham-techwithankush-seekhoaursikhao-twscommunitybuilders-90daysofdevops-connections-growth-community-learning-linkedin-devops-awsdevops-awscloud-awscommunity-aws-docker-dockercontainer-dockerhub-kubernetescluster-kubernetesservices-kubernetes-jenkins-ansible-ansibleautomates-linuxsystemadministration-linuxfoundation-linux-git-github-terraform-grafana-prometheus-cicd-cicdpipelines
 
