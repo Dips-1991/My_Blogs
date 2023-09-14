@@ -1,5 +1,5 @@
 ---
-title: "Services in Kubernetes: A Deep Dive"
+title: "🌐 Services in Kubernetes: A Deep Dive 🌍"
 datePublished: Thu Sep 14 2023 06:23:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmisarjj000309ldafyx7ql0
 slug: services-in-kubernetes-a-deep-dive
