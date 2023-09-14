@@ -118,7 +118,6 @@ Before that, we are passing the password value into the data field in base64 enc
 
 * type: Hre we use an `opaque secret`, allows for unstructured `key:value` pairs that can contain arbitrary values.
     
-
 * `data`: This is where you define `key-value` pairs for your configuration settings. In this example, we have 1 key-value pairs: `password` in a base64 encrypted format.
     
 
@@ -168,7 +167,7 @@ We have our Deployment file just add the new env variable attach the secret ther
 Run the below command to create the required`(ConfigMap, Secret, Deployment)` object.
 
 ```apache
-kubectl apply -f <file-name> 
+kubectl apply -f <file-name>
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694702194175/a71c3093-c394-4718-9cbb-c5f482113615.png align="center")
@@ -182,7 +181,7 @@ Login Into the container running inside the Pod using the command.
 Once you log in to the container you are inside the container then login to the MySQL database running inside the container using the command.
 
 ```apache
-mysql -u root -p <your-encrepted password>
+mysql -u root -p <your-decrepted password>
 ```
 
 Then hit the command to show the database we have specified in the ConnfigMap file.
