@@ -69,18 +69,18 @@ When a PVC is created, Kubernetes attempts to bind it to an available PV that me
     Start by creating a Persistent Volume YAML definition file. Here's a simple example of PV.
     
 * ```apache
-    apiVersion: v1
-    kind: PersistentVolume
-    metadata:
-      name: pv-todo-app
-    spec:
-      capacity:
-        storage: 1Gi
-      accessModes:
-        - ReadWriteOnce
-      persistentVolumeReclaimPolicy: Retain
-      hostPath:
-        path: "/tmp/data"
+      apiVersion: v1
+      kind: PersistentVolume
+      metadata:
+        name: pv-todo-app
+      spec:
+        capacity:
+          storage: 1Gi
+        accessModes:
+          - ReadWriteOnce
+        persistentVolumeReclaimPolicy: Retain
+        hostPath:
+          path: "/tmp/data"
     ```
     
 * **Explanation:**
@@ -107,16 +107,16 @@ When a PVC is created, Kubernetes attempts to bind it to an available PV that me
     Start by creating a Persistent Volume Claim YAML definition file. Here's a simple example of PVC.
     
 * ```apache
-    apiVersion: v1
-    kind: PersistentVolumeClaim
-    metadata:
-      name: pvc-todo-app
-    spec:
-      accessModes:
-        - ReadWriteOnce
-      resources:
-        requests:
-          storage: 500Mi
+      apiVersion: v1
+      kind: PersistentVolumeClaim
+      metadata:
+        name: pvc-todo-app
+      spec:
+        accessModes:
+          - ReadWriteOnce
+        resources:
+          requests:
+            storage: 500Mi
     ```
     
 * **Explanation:**
@@ -238,3 +238,12 @@ When a PVC is created, Kubernetes attempts to bind it to an available PV that me
 * They provide a robust and flexible way to handle storage resources, making your applications more reliable and resilient.
     
 * By following the steps outlined above, you can harness the power of PVs and ensure your data remains safe and accessible in your Kubernetes cluster. 🎉Happy Kubernetting! 🚢💡
+    
+
+---
+
+> **Thank you🙏🙏... for taking the time to read this blog. I hope you found the information helpful and insightful. So please keep yourself updated with my latest insights and articles on DevOps 🚀 by following me on**
+> 
+> So, Stay in the loop and stay ahead in the world of DevOps!
+> 
+> ***Happy Learning !... Keep Learning ! 😊***
