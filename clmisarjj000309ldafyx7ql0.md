@@ -231,7 +231,7 @@ Let's explore the different types of Kubernetes Services
     
     `kubectl expose deployment <deployment-name> -n <namespace-name> --type=NodePort`
     
-    `kubectl port-forward svc/<service-name> -n <namespace-name> <local-port>:<pod-port> --address 0.0.0.0`
+    `kubectl port-forward svc/<service-name> -n <namespace-name> <local-port>:<pod-port> --address 0.0.0.0 &`
     
 * Make sure the `NodePort(30003)` is open in your `Security Group` of the `EC2` instance.
     
