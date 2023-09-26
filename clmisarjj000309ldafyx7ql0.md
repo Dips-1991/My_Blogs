@@ -165,7 +165,7 @@ Let's explore the different types of Kubernetes Services
       ports:
         - port: 80                # Containers port exposed                       
           targetPort: 80          # Pods port
-          nodePort: 30008
+          nodePort: 30003
              # "open" to the outside world                     
       selector:
         name: deployment          # Apply this service to any pods which has the specific label "deployment"
@@ -225,7 +225,7 @@ Let's explore the different types of Kubernetes Services
     
 * ***Why Port Forwarding?***: While NodePort services expose your service to external traffic, you may also need to access the service directly from your local machine, especially during development, debugging, or testing. Port forwarding allows you to do just that.
     
-* ***Exposing a NodePort Service****:*
+* ***Exposing a NodePort Service***\*:\*
     
     Exposing a NodePort service makes your application accessible from outside the Kubernetes cluster. NodePort services allocate a specific port on each node in the cluster, making it available for external access.
     
