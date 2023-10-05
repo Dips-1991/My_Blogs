@@ -371,7 +371,7 @@ Here we will use the NGINX Ingress controller.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696513553838/ba31e76a-6ab0-4f3d-9aea-a82ab7b5e810.png align="center")
     
-    <mark>Congratulations! </mark> 🥇🎉 You've successfully deployed a Reddit clone web app on a Kubernetes cluster hosted on AWS and we are also able to access the application in a cluster with the help of `K8's Ingress and Ingress Controller` using `Hostname` which is mapped with the our `K8's Service` and it will redirect the traffic to the `Ingress IP address` .
+    <mark>Congratulations! </mark> 🥇🎉 You've successfully deployed a Reddit clone web app on a Kubernetes cluster hosted on AWS and we are also able to access the application in a cluster with the help of `K8's Ingress and Ingress Controller` using `Hostname` which is mapped with the our `K8's Service` and it will redirect the traffic to the `Ingress IP address`.
     
 
 ### 📒 **Summary**
