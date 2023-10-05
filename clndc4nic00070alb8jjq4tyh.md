@@ -1,8 +1,8 @@
 ---
-title: "Deploying a Reddit Clone App using Kubernetes Ingress and Ingress Controllers"
+title: "🚀Deploying a Reddit Clone App using Kubernetes☸️Ingress and Ingress Controllers 🌐"
 datePublished: Thu Oct 05 2023 15:31:12 GMT+0000 (Coordinated Universal Time)
 cuid: clndc4nic00070alb8jjq4tyh
-slug: deploying-a-reddit-clone-app-using-kubernetes-ingress-and-ingress-controllers
+slug: deploying-a-reddit-clone-app-using-kubernetesingress-and-ingress-controllers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696519435572/372dbbf5-eeb3-4dc2-b58c-59befdd8e687.jpeg
 tags: kubernetes, ingress, kubernetes-container, ingress-controllers, tws
 
