@@ -267,7 +267,7 @@ First You have to install some Prerequisites for this deployment. [**Click here 
 
 <mark>Congratulations! </mark> 🥇🎉 You've successfully deployed a Reddit clone web app on a Kubernetes cluster hosted on AWS.
 
-### 🎮 **Let's Configure** NGINX Ingress controller ⚙️
+### 🎮 **Let's Configure** NGINX Ingress ⚙️
 
 Here we will use the NGINX Ingress controller.
 
