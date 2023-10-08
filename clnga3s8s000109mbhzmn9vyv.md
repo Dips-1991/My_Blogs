@@ -1,8 +1,8 @@
 ---
-title: "🐳 Running Reddit Clone using Helm Chart inside Kubernetes Cluster☸️"
+title: "🐳 Running Reddit Clone using Helm Charts inside Kubernetes Cluster☸️"
 datePublished: Sat Oct 07 2023 16:57:51 GMT+0000 (Coordinated Universal Time)
 cuid: clnga3s8s000109mbhzmn9vyv
-slug: running-reddit-clone-using-helm-chart-inside-kubernetes-cluster
+slug: running-reddit-clone-using-helm-charts-inside-kubernetes-cluster
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696697840044/0b883e78-3c0f-420c-962a-3282d1385b2e.png
 tags: kubernetes, devops, helm, helm-chart, tws
 
