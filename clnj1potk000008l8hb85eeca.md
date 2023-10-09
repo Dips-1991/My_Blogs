@@ -308,3 +308,12 @@ Let’s dive into the AWS services, each designed to cater to specific needs.
 * We have also performed some hands-on on **IAM user creation** and **installing applications using Shell script.**
     
 * We have learned about **User Groups**, **Adding users to the group assigning permissions to the group, and how automatically those permissions are assigned to the added users.**
+    
+
+---
+
+> **Thank you🙏🙏... for taking the time to read this blog. I hope you found the information helpful and insightful. So please keep yourself updated with my latest insights and articles on DevOps 🚀 by following me on**
+> 
+> So, Stay in the loop and stay ahead in the world of DevOps!
+> 
+> ***Happy Learning !... Keep Learning ! 😊***
