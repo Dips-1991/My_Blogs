@@ -257,7 +257,7 @@ Roles can be used by the following:
 
 Assuming a role involves **using a set of temporary security credentials that you can use to access AWS resources that you might not normally have access to**
 
-### 🔑 **STS (Secure Service Token)**
+### 🔑 **STS (Secure Token Service)**
 
 Returns a set of temporary security credentials that you can use to access AWS resources. These temporary credentials consist of an access key ID, a secret access key, and a security token. Typically, you use AssumeRole within your account or for cross-account access.
 
@@ -294,7 +294,7 @@ Returns a set of temporary security credentials that you can use to access AWS r
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697118337653/db3d7366-be64-478b-aba4-2daa85084eda.png align="center")
     
-    We can see here we can not access the list of the S3 buckets. As we don't have permission or we can't configure our credentials`(access key & secret key)` with aws cli. But here we will use the `IAM Role`, `Trust Policy`, and `STS (Secure Service Token)` now.
+    We can see here we can not access the list of the S3 buckets. As we don't have permission or we can't configure our credentials`(access key & secret key)` with aws cli. But here we will use the `IAM Role`, `Trust Policy`, and `STS (Secure Token Service)` now.
     
 3. **<mark>Create IAM Role:</mark>**
     
