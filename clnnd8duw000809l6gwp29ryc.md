@@ -12,7 +12,7 @@ tags: aws-iam, aws-iam-policies, iam-role, tws, iam-role-in-aws
 
 In the last blog [Getting Started with AWS Basics☁](https://deepakcloud22.hashnode.dev/day-38-task-getting-started-with-aws-basics#heading-what-are-regions) we learned about the basics of ***AWS***, ***What is IAM***, ***Users***\*,\* **and *User groups***. We have also learned about ***Regions*** and ***Availability zones***, and we have performed some hands-on.
 
-In this article, we are going to deep dive into the **Permissions**, **Policies**, **🔐** **IAM Role, Trust policy, Assume Role, and STS (Secure Service Token)**🔑**.**
+In this article, we are going to deep dive into the **AWS IAM Permissions**, **Policies**, **🔐** **IAM Role, Trust policy, Assume Role, and STS (Secure Service Token)🔑.**
 
 ### **🔐IAM (Identity and Access Management)**
 
