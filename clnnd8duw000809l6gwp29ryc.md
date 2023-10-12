@@ -1,9 +1,9 @@
 ---
-title: "Day-39 Part-2: ☁AWS IAM Permissions, Policy, Role &Trust Policy  🔐🔑"
+title: "Day-39 Part-2: ☁AWS IAM Permissions,Policy,🔐 Role & Trust Policy, 
+Assume Role,STS(Secure Token Service🔑"
 datePublished: Thu Oct 12 2023 15:59:48 GMT+0000 (Coordinated Universal Time)
 cuid: clnnd8duw000809l6gwp29ryc
-slug: day-39-part-2-aws-iam-permissions-policy-role-trust-policy
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697125579722/7de5d901-5e81-4ee1-a37d-33328d84590a.jpeg
+slug: day-39-part-2-aws-iam-permissionspolicy-role-trust-policy-assume-rolestssecure-token-service
 tags: aws-iam, aws-iam-policies, iam-role, tws, iam-role-in-aws
 
 ---
