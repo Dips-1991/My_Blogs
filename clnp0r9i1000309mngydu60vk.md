@@ -1,5 +1,5 @@
 ---
-title: "Day 40  ☁AWS EC2 Automation⚙🚀"
+title: "Day-40  ☁AWS EC2 Automation⚙🚀"
 datePublished: Fri Oct 13 2023 19:46:06 GMT+0000 (Coordinated Universal Time)
 cuid: clnp0r9i1000309mngydu60vk
 slug: day-40-aws-ec2-automation
