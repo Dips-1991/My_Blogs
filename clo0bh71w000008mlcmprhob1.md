@@ -124,7 +124,7 @@ There are four AWS load balancer types supported
     ![AWS Gateway Load Balancer 1O1. Digital equipment such as firewalls… | by  Piyush Jalan | Medium](https://miro.medium.com/v2/resize:fit:1121/1*qNMaVza5BzgrimG2fz0gNg.png align="left")
     
 
-### ✍️ Task 1:
+### ✍️ Task:
 
 **Launch 2 EC2 instances with an Ubuntu AMI and use User Data to install the Apache Web Server.**
 
